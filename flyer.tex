@@ -11,6 +11,10 @@
 \usepackage[usenames,dvipsnames,svgnames]{xcolor}
 \usepackage{rotating}
 
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+
 \usepackage{setspace,fontawesome} %fb and youtube icon
 \usepackage[colorlinks=true, urlcolor=black]{hyperref}
 \urlstyle{same}
@@ -64,7 +68,7 @@
 
 \vfill
 
-{\fontsize{16}{18}\selectfont Tausende Hamburger Schüler:innen befinden sich im Fernunterricht. Dank Corona ist die Digitalisierung quasi über Nacht auch in den Schulen angekommen. Doch nicht alle Schüler:innen haben zu Hause einen Internetzugang. Mit Freifunk kannst Du helfen und Deinen Internetzugang einfach und sicher teilen.\par}
+{\fontsize{13}{17}\selectfont Tausende Hamburger Schüler:innen befinden sich im Fernunterricht. Dank Corona ist die Digitalisierung quasi über Nacht auch in den Schulen angekommen. Doch nicht alle Schüler:innen haben zu Hause einen Internetzugang. Mit Freifunk kannst Du helfen und Deinen Internetzugang einfach und sicher teilen.\par}
 
 \vspace{4em}
 
@@ -84,9 +88,9 @@ Du brauchst keine besonderen technischen Kenntnisse, um Teil des Netzes zu werde
 % Alternativ kannst Du bei TODO ein fertig eingerichtetes Gerät abholen, das nur noch angeschlossen werden muss.
 
 \section{1. Gerät kaufen}
-Je nach Geldbeutel und Installationsort eignen sich verschiedene Geräte. Wir empfehlen an dieser Stelle zwei Geräte, die leicht eingerichtet werden können: den \textbf{Netgear R6120} (ca. 40€) und den \textbf{Gl.iNet GL-B1300} (ca. 70€).
+Je nach Geldbeutel und Installationsort eignen sich verschiedene Geräte. Wir empfehlen an dieser Stelle zwei Geräte, die leicht eingerichtet werden können: den \textbf{Netgear R6120} (ca.~40€) und den \textbf{Gl.iNet GL-B1300} (ca.~70€).
 
-Grundsätzlich sind alle Geräte geeignet, die unter \href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware} aufgeführt werden. Manche der dort aufgeführten Geräte gibt es in verschiedenen Hardware-Revisionen, bitte achtet beim Kauf darauf. Nicht immer werden alle Revisionen von uns unterstützt.
+Grundsätzlich sind alle Geräte geeignet, die unter \mbox{\href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware}} aufgeführt werden. Manche der dort aufgeführten Geräte gibt es in verschiedenen Hardware-Revisionen, bitte achtet beim Kauf darauf. Nicht immer werden alle Revisionen von uns unterstützt.
 
 Sobald ein passendes Gerät beschafft wurde, kann die Firmware aufgespielt werden.
 
@@ -98,7 +102,7 @@ Sobald ein passendes Gerät beschafft wurde, kann die Firmware aufgespielt werde
 
 \paragraph{Netgear R6120}
 \begin{enumerate}
- \item Lade zunächst die Erstinstallations-Firmware für Dein Gerät herunter: \href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware}
+ \item Lade zunächst die Erstinstallations-Firmware für Dein Gerät herunter: \mbox{\href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware}}
  \item Schließe den Router ans Stromnetz an. Warte bis die Power- und die WiFi-LED durchgehend eingeschaltet sind. Verbinde jetzt den \textit{LAN-Port 2} mit dem Netzwerkanschluss des Computers.
  \item Öffne in einem Browserfenster die Adresse \textit{http://routerlogin.net} bzw. \textit{http://192.168.2.2}
  \item Klicke links oben auf \textit{Erweitert} und dann im Reiter \textit{Administration} auf \textit{Firmwareupdate}.
@@ -109,7 +113,7 @@ Sobald ein passendes Gerät beschafft wurde, kann die Firmware aufgespielt werde
 
 \paragraph{Gl.iNet GL-B1300}
 \begin{enumerate}
- \item Lade zunächst die Firmware für Dein Gerät herunter: \href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware}
+ \item Lade zunächst die Firmware für Dein Gerät herunter: \mbox{\href{https://hamburg.freifunk.net/firmware}{https://hamburg.freifunk.net/firmware}}
  \item Schließe den Router ans Stromnetz an. Verbinde dann den \textit{mittleren LAN-Port} mit dem Netzwerkanschluss des Computers.
  \item Öffne in einem Browserfenster die Adresse \textit{http://192.168.8.1}
  \item Wähle nun eine Sprache und vergebe ein Passwort. Klicke danach links auf \textit{Aktualisierung} und dann auf den Reiter \textit{lokales Upgrade}.
@@ -136,13 +140,13 @@ Verbinde die \textit{WAN-Buchse} des Freifunk-Knotens mit einer freien Buchse De
 
 Nun solltest Du ein neues, offenes WLAN mit der SSID \mbox{\textit{hamburg.freifunk.net}} sehen. Teste es am besten kurz und sage dann Deinen Nachbarn Bescheid!
 
-
-
+\section{Die einfache Alternative}
+Alternativ kannst Du ein Gerät an unsere Adresse bestellen und wir richten es ein. Du musst es dann nur noch in Harburg abholen und bei Dir zu Hause anschließen. Schreibe bei Interesse eine \mbox{E-Mail} an \mbox{kontakt@hamburg.freifunk.net}.
 
 \newpage
 \section{Häufige Fragen}
 \setlength{\parskip}{0.1em}
-\paragraph{Wo stehen schon Freifunk-Router?} Eine Karte findest Du unter \href{https://map.hamburg.freifunk.net}{https://map.hamburg.freifunk.net}.
+\paragraph{Wo stehen schon Freifunk-Router?} Eine Karte findest Du unter \mbox{\href{https://map.hamburg.freifunk.net}{https://map.hamburg.freifunk.net}}.
 
 \paragraph{Was kostet Freifunk?}
 Für die Nutzung fallen für Dich keine Kosten an. Die Infrastruktur wird ausschließlich über Spenden finanziert.
@@ -169,11 +173,11 @@ Bei der Nutzung herrschen die gleichen Bedingungen wie in jedem anderen WLAN: Di
 \vfill
 \section{Kontakt}
 \begin{tabular}{ll}
-WWW & \href{https://hamburg.freifunk.net}{https://hamburg.freifunk.net}\\
-E-Mail & \href{mailto:kontakt@hamburg.freifunk.net}{kontakt@hamburg.freifunk.net}\\
+WWW & \mbox{\href{https://hamburg.freifunk.net}{https://hamburg.freifunk.net}}\\
+E-Mail & \mbox{\href{mailto:kontakt@hamburg.freifunk.net}{kontakt@hamburg.freifunk.net}}\\
         \\
 Treffen & 14-tägig Montags, online\\
-	& \href{https://hamburg.freifunk.net/kalender}{\small https://hamburg.freifunk.net/kalender}
+	& \mbox{\href{https://hamburg.freifunk.net/kalender}{https://hamburg.freifunk.net/kalender}}
 \end{tabular}
 
 \end{document}
